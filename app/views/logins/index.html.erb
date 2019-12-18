@@ -1,0 +1,17 @@
+<%= form_with model: @login, local: true do |form| %>
+<div id="MainDiv">
+<h1>Login</h1>
+<div id="LoginDiv">
+<p>
+    <%= form.text_field :loginname ,placeholder: "LoginName"%>
+  </p>
+ 
+  <p>    
+    <%= form.text_field :password ,placeholder: "Password"%>
+  </p>
+ 
+  <p>
+    <%= form.submit:"Login" %>
+  </p>
+</div></div>
+<% end %>
