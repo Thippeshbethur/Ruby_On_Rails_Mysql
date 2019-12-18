@@ -1,0 +1,20 @@
+<p>
+  <strong>loginname:</strong>
+  <%= @logins.loginname %>
+</p>
+ 
+<p>
+  <strong>password:</strong>
+  <%= @logins.password %>
+</p>
+<%= link_to 'Back', logins_path %>
+
+<script type="text/javascript">
+      window.onpageshow = function(evt) {
+        // If persisted then it is in the page cache, force a reload of the page.
+        if (evt.persisted) {
+          document.body.style.display = "none";
+          location.reload();
+        }
+      };
+    </script>

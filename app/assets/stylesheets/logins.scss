@@ -1,0 +1,24 @@
+// Place all the styles related to the logins controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+#LoginDiv{
+    background: darkturquoise;
+    height: fit-content;
+    margin: 5px;
+}
+#MainDiv{
+    width: 22%;
+    border:purple  3px solid ;
+    border-radius: 10px;
+    float: right;
+    margin: 6% 9% 0px 0px;
+}
+#MainDiv h1{
+    margin-left: 32%;    
+}
+.warning{
+    color: black;
+}
+body{
+    background: honeydew;
+}
